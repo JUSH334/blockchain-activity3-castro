@@ -13,9 +13,13 @@ Third, unchecked loop arithmetic using unchecked { ++i; } blocks disables Solidi
 Fourth, single transaction amortization spreads the fixed 21,000 gas base transaction cost across multiple operations instead of paying it three times for individual transfers (63,000 gas total), while also sharing function call overhead and enabling optimized state tree updates with a single root hash change. Additional optimizations include pre-validation that calculates the total mint amount before any state changes to fail fast on cap violations, demonstrated by the contract's successful deployment at address 0x5fbdb2315678afecb367f032d93f642f64180aa3 on block 1 with 1,943,296 deployment gas. The implementation shows increasing efficiency potential as batch sizes grow, since the fixed costs become amortized across more operations, making it a production-ready solution that scales cost-effectively for token distribution operations.
 
 Roles hashes which correspond to:
+
 0x0000... = DEFAULT_ADMIN_ROLE
+
 0x9f2df0... = MINTER_ROLE (keccak256("MINTER_ROLE"))
+
 0x65d7a... = PAUSER_ROLE (keccak256("PAUSER_ROLE"))
+
 <img width="631" height="259" alt="Screenshot from 2025-09-18 17-23-34" src="https://github.com/user-attachments/assets/180fd617-36bf-4e89-a68e-cf13e755d438" />
 
 Token Address:
