@@ -23,7 +23,9 @@ Roles hashes which correspond to:
 <img width="631" height="259" alt="Screenshot from 2025-09-18 17-23-34" src="https://github.com/user-attachments/assets/180fd617-36bf-4e89-a68e-cf13e755d438" />
 
 Token Address:
+
 <img width="669" height="216" alt="Screenshot from 2025-09-18 17-24-15" src="https://github.com/user-attachments/assets/a0f7d836-1274-4d74-8a49-68c640a8fc61" />
 
 Token Cap:
+
 <img width="643" height="125" alt="Screenshot from 2025-09-18 17-25-03" src="https://github.com/user-attachments/assets/9e84cf7a-8d14-4711-b7d5-be07f938f0b4" />
