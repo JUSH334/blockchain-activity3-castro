@@ -1,3 +1,5 @@
+*NOTE: No metamask screenshot as it was not able to run on the network.
+
 # Gas-Aware Airdrop Implementation
 
 The CampusCreditV2 airdrop function demonstrates gas optimization through four key techniques that achieve measurable gas savings compared to individual transfers. Testing with 3 recipients receiving 10 tokens each shows the batch airdrop consumed 94,999 gas versus 104,780 gas for individual transfers, representing a 9.33% gas savings and 4.12% fee reduction. 
